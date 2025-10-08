@@ -1,6 +1,7 @@
 
 
 #calculator{
+    background-color: aliceblue;
     border: 1px solid black;
     border-radius: 5px;
     width: 200px;
@@ -17,6 +18,9 @@
     margin: 3px;
     width: 45px;
     height: 45px;
+}
+.btn:active{
+    background-color: rgb(164, 195, 195);
 }
 
 .button_container{

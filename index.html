@@ -37,14 +37,16 @@
 
             <button class="btn" onclick="currDisplay+='/';document.querySelector('#display').value = currDisplay;">/</button>
 
+            
+
+            <button class="btn" onclick="currDisplay+=0;document.querySelector('#display').value = currDisplay;">0</button>
+
+            <button class="btn" onclick="currDisplay+=9;document.querySelector('#display').value = currDisplay;">9</button>
+
             <button class="btn" onclick="
             let result = eval(currDisplay);
             currDisplay=result;
             document.querySelector('#display').value = currDisplay;">=</button>
-
-            <button class="btn" onclick="currDisplay+=9;document.querySelector('#display').value = currDisplay;">9</button>
-
-            <button class="btn" onclick="currDisplay+=0;document.querySelector('#display').value = currDisplay;">0</button>
 
             <button class="btn" onclick="currDisplay+='.';document.querySelector('#display').value = currDisplay;">.</button>
         </div>
